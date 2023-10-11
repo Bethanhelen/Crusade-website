@@ -2,12 +2,40 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <link rel="stylesheet" href="/style.css">
+    <title>Crusade website</title>
   </head>
   <body>
-    <div id="app"></div>
+    <nav class="text-white">
+    <div class=" max-w-5xl bg-blue-500 p-6 flex justify-between items-center">
+      <div>
+      <a href="#">Tours</a>
+      </div>
+      <div class="hidden flex space-x-1 items-center md:block">
+        <a href="" class="ml-4">About</a>
+        <a href="" class="ml-4">Programs</a>
+        <a href="" class="ml-4">Contact</a>
+     
+      </div>
+    <!-- hamburger here -->  
+      <div class=" flex items-center md:hidden">
+        <button class="mobile-menu-button">
+          <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+</svg>
+
+        </button>
+      </div>
+    </div>
+    
+    <!-- mobile menu -->
+    <div class="hidden mobile-menu md:hidden bg-blue-500">
+      <a href="" class="block py-3 px-4 text-sm hover:bg-gray-200">About</a>
+      <a href="" class="block py-3 px-4 text-sm hover:bg-gray-200">Programs</a>
+      <a href="" class="block py-3 px-4 text-sm hover:bg-gray-200">Contact</a>
+    </div>
+    </nav>
     <script type="module" src="/main.js"></script>
   </body>
 </html>
