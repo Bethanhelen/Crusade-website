@@ -7,10 +7,10 @@ module.exports = {
         sans:["Nunito Sans", "sans-serif"],
     },
     backgroundImage: {
-      'home': "url('/img/Home.png')",
-      'about': "url('/img/About.png')",
-      'programs': "url('/img/Programs.png')",
-      'contact': "url('/img/Contact Us.png')",
+      'home': "url('/Images/Home.png')",
+      'about': "url('/Images/About.png')",
+      'programs': "url('/Images/Programs.png')",
+      'contact': "url('/Images/Contact Us.png')",
     },
     fontWeight:{
     sm:["200"],
