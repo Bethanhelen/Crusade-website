@@ -705,8 +705,16 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-\[url\(\'\/images\/home\.png\'\)\] {
-  background-image: url('/images/home.png');
+.bg-\[url\(\'\/Images\/About\.png\'\)\] {
+  background-image: url('/Images/About.png');
+}
+
+.bg-\[url\(\'\/Images\/Programs\.png\'\)\] {
+  background-image: url('/Images/Programs.png');
+}
+
+.bg-\[url\(\'\/Images\/Contact\.png\'\)\] {
+  background-image: url('/Images/Contact.png');
 }
 
 .bg-cover {

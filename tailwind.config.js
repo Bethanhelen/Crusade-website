@@ -10,7 +10,7 @@ module.exports = {
       'home': "url('/Images/Home.png')",
       'about': "url('/Images/About.png')",
       'programs': "url('/Images/Programs.png')",
-      'contact': "url('/Images/Contact Us.png')",
+      'contact': "url('/Images/Contact.png')",
     },
     fontWeight:{
     sm:["200"],
